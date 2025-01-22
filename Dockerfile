@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the Spring Boot JAR file into the container
-COPY build/libs/flightservice.jar app.jar
+COPY build/libs/flightserviceapp.jar app.jar
 
 # Expose the port your application runs on (optional but recommended)
 EXPOSE 8082
